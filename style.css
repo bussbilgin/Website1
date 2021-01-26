@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.header {
+    background-color: #191919;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    font-family: 'Lora', serif;
+}
+
+a:hover {
+    color: white;
+}
+
